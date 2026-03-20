@@ -190,7 +190,7 @@ git clone https://github.com/your-username/hours-consolidation
 cd hours-consolidation
 ```
 
-Update the paths in `consolidator.py`:
+Update the paths in `integrantes_data_collect.py`:
 
 ```python
 carpeta_ing_path      = "sample_data/input/Integrantes"
@@ -201,13 +201,13 @@ dir_consolidado       = "sample_data/output"
 Then run:
 
 ```bash
-python consolidator.py
+python integrantes_data_collect.py.py
 ```
 
 ### 3. Run for a specific month
 
 ```python
-# Bottom of consolidator.py — change to target a past month:
+# Bottom of integrantes_data_collect.py — change to target a past month:
 status = get_integrantes_month_status(
     df_general, path_p, integrantes_info_path,
     fecha=(6, 2024)   # (month, year)
@@ -221,7 +221,7 @@ status = get_integrantes_month_status(
 ```
 hours-consolidation/
 │
-├── consolidator.py                  # Main ETL pipeline
+├── integrantes_data_collect.py                  # Main ETL pipeline
 │
 ├── sample_data/
 │   ├── input/
