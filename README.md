@@ -61,7 +61,7 @@ Each team member has their own workbook. The main sheet (named after the member)
 
 > The pipeline multiplies each percentage by the member's weekly hours (from `Horas_ING.xlsm`) to get **actual hours worked per task per week**.
 
-![Input file structure](assets/integrante_individual.png)
+![Input file structure](assets/user.png)
 
 
 ---
