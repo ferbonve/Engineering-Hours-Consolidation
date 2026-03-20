@@ -1,4 +1,4 @@
-# ⏱️ Engineering Hours Consolidation System
+# Engineering Hours Consolidation System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Business Problem
+## Business Problem
 
 A logistics company's engineering team tracked weekly hours manually across individual `.xlsm` workbooks. The consolidation process was:
 
@@ -21,7 +21,7 @@ A logistics company's engineering team tracked weekly hours manually across indi
 
 ---
 
-## ✅ Solution
+## Solution
 
 A Python pipeline that runs in one command and:
 
@@ -103,7 +103,7 @@ Long-format table with one row per (member × task × week):
 
 ---
 
-## ⚙️ Pipeline Flow
+## Pipeline Flow
 
 ```
 ┌──────────────────────────────┐
@@ -216,7 +216,7 @@ status = get_integrantes_month_status(
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 hours-consolidation/
@@ -248,14 +248,6 @@ hours-consolidation/
 - Replaced manual follow-up with an **automated 5-tier alert system**
 - Produced **individual reports** deliverable directly to each team member
 - Deployed and used in **production** within a logistics company engineering team
-
----
-
-## 🔒 Notes on Data Privacy
-
-- All data in `sample_data/` is **entirely synthetic** — names, emails, project names, and IDs are fictitious
-- Real company data, personnel records, and client information are **not included** in this repository
-- The pipeline ran on corporate OneDrive infrastructure (Windows paths)
 
 ---
 
