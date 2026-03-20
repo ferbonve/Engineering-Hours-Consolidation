@@ -1,4 +1,4 @@
-# ⏱️ Engineering Hours Consolidation System
+# Engineering Hours Consolidation System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Business Problem
+## Business Problem
 
 A logistics company's engineering team tracked weekly hours manually across individual `.xlsm` workbooks. The consolidation process was:
 
@@ -21,7 +21,7 @@ A logistics company's engineering team tracked weekly hours manually across indi
 
 ---
 
-## ✅ Solution
+## Solution
 
 A Python pipeline that runs in one command and:
 
@@ -34,7 +34,7 @@ A Python pipeline that runs in one command and:
 
 ---
 
-## 📂 Data Schema
+## Data Schema
 
 ### Input: Individual member files (`Integrantes/Nombre_Apellido.xlsm`)
 
@@ -103,7 +103,7 @@ Long-format table with one row per (member × task × week):
 
 ---
 
-## ⚙️ Pipeline Flow
+## Pipeline Flow
 
 ```
 ┌──────────────────────────────┐
@@ -161,7 +161,7 @@ The system evaluates each member's monthly completion percentage and, based on t
 
 ---
 
-## 🛠️ Tech Stack
+## Libraries used
 
 | Library | Use |
 |---|---|
@@ -175,7 +175,7 @@ The system evaluates each member's monthly completion percentage and, based on t
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 
@@ -190,7 +190,7 @@ git clone https://github.com/your-username/hours-consolidation
 cd hours-consolidation
 ```
 
-Update the paths in `consolidator.py`:
+Update the paths in `integrantes_data_collect.py`:
 
 ```python
 carpeta_ing_path      = "sample_data/input/Integrantes"
@@ -201,13 +201,13 @@ dir_consolidado       = "sample_data/output"
 Then run:
 
 ```bash
-python consolidator.py
+python integrantes_data_collect.py.py
 ```
 
 ### 3. Run for a specific month
 
 ```python
-# Bottom of consolidator.py — change to target a past month:
+# Bottom of integrantes_data_collect.py — change to target a past month:
 status = get_integrantes_month_status(
     df_general, path_p, integrantes_info_path,
     fecha=(6, 2024)   # (month, year)
@@ -216,12 +216,12 @@ status = get_integrantes_month_status(
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 hours-consolidation/
 │
-├── consolidator.py                  # Main ETL pipeline
+├── integrantes_data_collect.py                  # Main ETL pipeline
 │
 ├── sample_data/
 │   ├── input/
@@ -243,19 +243,11 @@ hours-consolidation/
 
 ## 📈 Impact
 
-- ⏳ Eliminated **manual monthly consolidation** across 15+ Excel files
-- 📐 Enabled **accurate compliance tracking** with holiday-adjusted expected hours
-- 🔔 Replaced manual follow-up with an **automated 5-tier alert system**
-- 📁 Produced **individual reports** deliverable directly to each team member
-- 🏭 Deployed and used in **production** within a logistics company engineering team
-
----
-
-## 🔒 Notes on Data Privacy
-
-- All data in `sample_data/` is **entirely synthetic** — names, emails, project names, and IDs are fictitious
-- Real company data, personnel records, and client information are **not included** in this repository
-- The pipeline ran on corporate OneDrive infrastructure (Windows paths)
+- Eliminated **manual monthly consolidation** across 15+ Excel files
+- Enabled **accurate compliance tracking** with holiday-adjusted expected hours
+- Replaced manual follow-up with an **automated 5-tier alert system**
+- Produced **individual reports** deliverable directly to each team member
+- Deployed and used in **production** within a logistics company engineering team
 
 ---
 
@@ -263,4 +255,3 @@ hours-consolidation/
 
 **Fernando Bonvecchiato**  
 Industrial Engineering Student | Data Analyst  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
