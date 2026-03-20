@@ -34,7 +34,7 @@ A Python pipeline that runs in one command and:
 
 ---
 
-## 📂 Data Schema
+## Data Schema
 
 ### Input: Individual member files (`Integrantes/Nombre_Apellido.xlsm`)
 
@@ -161,7 +161,7 @@ The system evaluates each member's monthly completion percentage and, based on t
 
 ---
 
-## 🛠️ Tech Stack
+## Libraries used
 
 | Library | Use |
 |---|---|
@@ -175,7 +175,7 @@ The system evaluates each member's monthly completion percentage and, based on t
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 
@@ -243,11 +243,11 @@ hours-consolidation/
 
 ## 📈 Impact
 
-- ⏳ Eliminated **manual monthly consolidation** across 15+ Excel files
-- 📐 Enabled **accurate compliance tracking** with holiday-adjusted expected hours
-- 🔔 Replaced manual follow-up with an **automated 5-tier alert system**
-- 📁 Produced **individual reports** deliverable directly to each team member
-- 🏭 Deployed and used in **production** within a logistics company engineering team
+- Eliminated **manual monthly consolidation** across 15+ Excel files
+- Enabled **accurate compliance tracking** with holiday-adjusted expected hours
+- Replaced manual follow-up with an **automated 5-tier alert system**
+- Produced **individual reports** deliverable directly to each team member
+- Deployed and used in **production** within a logistics company engineering team
 
 ---
 
@@ -263,4 +263,3 @@ hours-consolidation/
 
 **Fernando Bonvecchiato**  
 Industrial Engineering Student | Data Analyst  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
