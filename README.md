@@ -102,6 +102,8 @@ Long-format table with one row per (member × task × week):
 | `Integrante` | Team member name |
 | `Legajo` | Employee ID |
 
+![Input file structure](assets/consolidado.png)
+
 ---
 
 ## Pipeline Flow
