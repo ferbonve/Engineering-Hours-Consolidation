@@ -68,7 +68,7 @@ Each team member has their own workbook. The main sheet (named after the member)
 
 ### Input: Master workbook (`Horas_ING.xlsm`)
 
-Contains three sheets:
+Contains two sheets:
 
 **`Integrantes`** — Team member registry:
 
@@ -82,8 +82,6 @@ Contains three sheets:
 | ID | Proyecto | Usuario | Área | UUNN | CeCo | Tipo | Facturación |
 |---|---|---|---|---|---|---|---|
 | 1 | Optimización rutas | Cliente A | Excelencia Operativa | UNL | Desarrollo | Implementaciones | — |
-
-**`Consolidado Horas`** — Populated automatically by the pipeline.
 
 ---
 
