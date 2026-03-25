@@ -12,12 +12,17 @@
 
 ## Business Problem
 
-A logistics company's engineering team tracked weekly hours manually across individual `.xlsm` workbooks. The consolidation process was:
+A logistics company's engineering team tracked weekly hours manually across individual `.xlsm` workbooks. 
+> ⚠️ Tools like Jira exist for exactly this, but the team didn't have budget for a license. So Excel stayed.
+
+The consolidation process was:
 
 - ❌ Done **entirely by hand** every month
 - ❌ Error-prone when merging across multiple team members  
 - ❌ Had **no automatic alerts** for members falling behind
 - ❌ Didn't account for **holidays** or **variable weekly schedules** (e.g. part-time members at 20h vs 45h/week)
+
+Difficult 
 
 ---
 
