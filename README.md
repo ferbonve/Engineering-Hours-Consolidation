@@ -22,8 +22,6 @@ The consolidation process was:
 - ❌ Had **no automatic alerts** for members falling behind
 - ❌ Didn't account for **holidays** or **variable weekly schedules** (e.g. part-time members at 20h vs 45h/week)
 
-Difficult 
-
 ---
 
 ## Solution
